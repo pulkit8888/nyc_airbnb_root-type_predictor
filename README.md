@@ -220,22 +220,6 @@ Then restart the FastAPI server to pick up the new model file.
 
 ---
 
-## 🌐 Deployment (Render)
-
-The API is already deployed at:
-> **https://nyc-airbnb-room-type-predictor.onrender.com**
-
-To deploy your own instance on Render:
-
-1. Push the repository to GitHub.
-2. Create a new **Web Service** on [render.com](https://render.com).
-3. Set the **Build Command**: `pip install -r requirements.txt`
-4. Set the **Start Command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-5. Set **Python version** to `3.12.7` (matching `runtime.txt`).
-6. Deploy — Render will auto-detect `runtime.txt`.
-
----
-
 ## 📋 Requirements
 
 ```
