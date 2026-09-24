@@ -199,11 +199,6 @@ Returns a plain greeting string confirming the API is live.
 | Vanilla JavaScript (ES2020+) | API integration, DOM manipulation, canvas-less animations |
 | [Google Fonts](https://fonts.google.com/) | *Space Grotesk*, *Inter*, *JetBrains Mono* typography |
 
-### Deployment
-| Tool | Purpose |
-|---|---|
-| [Render](https://render.com/) | Cloud hosting for the FastAPI backend |
-
 ---
 
 ## 🧪 Re-training the Model
