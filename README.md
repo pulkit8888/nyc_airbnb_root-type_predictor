@@ -94,7 +94,7 @@ A **FastAPI** server loads the saved pipeline and exposes two endpoints:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/nyc_airbnb_room-type_predictor.git
+git clone https://github.com/pulkit8888/nyc_airbnb_room-type_predictor.git
 cd nyc_airbnb_room-type_predictor
 ```
 
