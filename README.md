@@ -14,7 +14,6 @@ The project combines a **scikit-learn ML pipeline** served via a **FastAPI** RES
 | **Model** | Pre-trained scikit-learn pipeline (`Model_Pipeline.pkl`) |
 | **Backend** | FastAPI + Uvicorn |
 | **Frontend** | HTML5 + Vanilla CSS + Vanilla JS |
-| **Live deployment** | [nyc-airbnb-room-type-predictor.onrender.com](https://nyc-airbnb-room-type-predictor.onrender.com) |
 
 ---
 
@@ -95,8 +94,8 @@ A **FastAPI** server loads the saved pipeline and exposes two endpoints:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/nycairbnbroomtypepredictor.git
-cd nycairbnbroomtypepredictor
+git clone https://github.com/<your-username>/nyc_airbnb_room-type_predictor.git
+cd nyc_airbnb_room-type_predictor
 ```
 
 ### 2. Create and activate a virtual environment *(recommended)*
@@ -139,15 +138,6 @@ python -m http.server 5500
 ```
 
 Then navigate to **http://127.0.0.1:5500**.
-
-> **Important:** The frontend's `script.js` points to the live Render deployment by default.
-> To use your **local** FastAPI server instead, edit line 5 of `script.js`:
-> ```js
-> // Change this:
-> const API_BASE_URL = "https://nyc-airbnb-room-type-predictor.onrender.com";
-> // To this:
-> const API_BASE_URL = "http://127.0.0.1:8000";
-> ```
 
 ---
 
